@@ -1,5 +1,5 @@
 # Developing-Data-Products Course Project
--------------------------
+
 
 This repository is created for Developing-Data-Products course, the last part of the Data Science Specialization.  
 You can see there are two files ui.R and server.R for a shiny app named **CLT_app** which can help people do some simple simulations of the [**central limit theorem**](https://en.wikipedia.org/wiki/Central_limit_theorem) (CLT). 
