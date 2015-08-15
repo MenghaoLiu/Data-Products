@@ -13,6 +13,7 @@ shinyServer(function(input, output) {
         
         n <- input$n
         nosim <- input$nosim
+        set.seed(123456)
         
         if (input$dist == "norm") {
             mu <- input$mu; sigma <- input$sigma
@@ -44,6 +45,7 @@ shinyServer(function(input, output) {
         
         n <- input$n
         nosim <- input$nosim
+        set.seed(123456)
         
         if (input$dist == "norm") {
             mu <- input$mu; sigma <- input$sigma
